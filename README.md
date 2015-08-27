@@ -13,7 +13,7 @@ Minify and concat with browserfy: ```npm run build```
 
 Watch and build: ```npm run watch```
 
-Start a server with live reload and watch where you can test changes on [http://localhost:8080/demo]: ```npm start```
+Start a server with live reload and watch where you can test changes on [http://localhost:8080/demo](http://localhost:8080/demo): ```npm start```
 
 # Tests making a resuable and bowerizable angular module
 
