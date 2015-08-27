@@ -12,16 +12,20 @@
     "browserify": "latest",
     "mocha": "latest",
     "rimraf": "latest",
-    "watch": "latest"
+    "watch": "latest",
+    "live-reload": "latest",
+    "parallelshell": "latest"
   },
   "scripts": {
-    "start": "http-server .",
+    "start": "parallelshell 'npm run livereload' 'npm run start-server' 'npm run watch'",
     "test": "npm test",
     "lint": "jshint module/**.js",
     "uglify": "node bin/concat-minify.js",
     "clean": "rimraf dist/*",
     "build": "browserify module/rgt-reusable-module.js module/components/**.js > dist/rgt-reusable-module.min.js",
-    "watch": "watch 'npm run build' module/"
+    "watch": "watch 'npm run build' module/",
+    "start-server": "http-server .",
+    "livereload": "live-reload --port 9091 dist/"
   },
   "repository": {
     "type": "git",

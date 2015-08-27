@@ -6,7 +6,7 @@
 		return {
 			restrict: 'E', // as element				
       replace: 'true',		
-			template: '<span>Hello world nenazas!</span>'
+			template: '<span>Hello world!</span>'
 		};
 
 	}]);

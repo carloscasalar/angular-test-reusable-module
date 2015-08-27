@@ -11,12 +11,9 @@ Minify and concat with uglify: ```npm run uglify```
 
 Minify and concat with browserfy: ```npm run build```
 
-watch and build: ```npm run watch```
+Watch and build: ```npm run watch```
 
-## Demo page
-
-You can run the demo page with ```npm start``` and pointing your browser to [http://localhost:8080/demo]
-
+Start a server with live reload and watch where you can test changes on [http://localhost:8080/demo]: ```npm start```
 
 # Tests making a resuable and bowerizable angular module
 
