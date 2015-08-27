@@ -1,4 +1,4 @@
-/// <reference path="../typings/angularjs/angular.d.ts"/>
+/// <reference path="../../typings/angularjs/angular.d.ts"/>
 (function(rgtReusableModule,undefined){
 	'use strict';
 
@@ -6,7 +6,7 @@
 		return {
 			restrict: 'E', // as element				
       replace: 'true',		
-			template: '<span>Hello world!</span>'
+			template: '<span>Hello world nenazas!</span>'
 		};
 
 	}]);

@@ -2,7 +2,7 @@
   "name": "angular-test-reusable-module",
   "version": "0.0.1",
   "description": "Reusable test angular module with configured tests",
-  "main": "rgt-reusable-module.js",
+  "main": "module/rgt-reusable-module.js",
   "dependencies": {
     "angular": "^1.4.4"
   },
@@ -10,12 +10,18 @@
     "uglify-js": "^2.4.24",
     "jshint": "latest",
     "browserify": "latest",
-    "mocha": "latest"  
+    "mocha": "latest",
+    "rimraf": "latest",  
+    "watch": "latest"
   },
   "scripts": {
+    "start": "http-server .",
     "test": "npm test",
     "lint": "jshint module/**.js",
-    "uglify": "node bin/concat-minify.js"
+    "uglify": "node bin/concat-minify.js",
+    "clean": "rimraf dist/*",
+    "build": "browserify module/rgt-reusable-module.js module/components/**.js > dist/rgt-reusable-module.min.js",
+    "watch": "watch 'npm run build' module/"
   },
   "repository": {
     "type": "git",

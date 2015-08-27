@@ -8,7 +8,8 @@
 	
 	var destFileName='rgt-reusable-module.min.js';
 	
-	var scriptsFileNames = getFiles('module', scriptsFileNames);
+	var scriptsFileNames = ['module/rgt-reusable-module.js'];
+	scriptsFileNames = getFiles('module/components', scriptsFileNames);
 	console.log('Filename list of files to be uglified and minified:');
 	console.log(scriptsFileNames);
 	
