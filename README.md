@@ -1,9 +1,8 @@
-# Test making a resuable and bowerizable angular module
+# Tests making a resuable and bowerizable angular module
 
-[TODO - brief summary]
+Using this guide for "bowerize" the module: [http://briantford.com/blog/angular-bower](http://briantford.com/blog/angular-bower)
 
-## Demo
-http://SirRagnar.github.io/sirragnar.test-reusable-module/
+Using this guide to configure manally the tests: [https://www.airpair.com/angularjs/posts/unit-testing-angularjs-applications](https://www.airpair.com/angularjs/posts/unit-testing-angularjs-applications)
 
 ## Dependencies
 - required:
