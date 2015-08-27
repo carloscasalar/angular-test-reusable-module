@@ -6,7 +6,7 @@
     "Carlos Castillo Alarcón <sir.ragnar+angular-test-reusable-module@gmail.com>"
   ],
   "description": "A test reusable angular module",
-  "main": "rgt-reusable-module.js",
+  "main": "dist/rgt-reusable-module.min.js",
   "keywords": [
     "angular",
     "module",
@@ -19,7 +19,9 @@
     "bower_components",
     "test",
     "tests",
-    "demo"
+    "demo",
+    "bin",
+    "typings"
   ],
   "dependencies": {
     "angular": "~1.4.4"

@@ -1,3 +1,4 @@
+/// <reference path="../typings/angularjs/angular.d.ts"/>
 (function(rgtReusableModule,undefined){
 	'use strict';
 
