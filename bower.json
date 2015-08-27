@@ -1,0 +1,27 @@
+{
+  "name": "angular-test-reusable-module",
+  "version": "0.0.0",
+  "homepage": "https://github.com/SirRagnar/angular-test-reusable-module",
+  "authors": [
+    "Carlos Castillo Alarcón <sir.ragnar+angular-test-reusable-module@gmail.com>"
+  ],
+  "description": "A test reusable angular module",
+  "main": "rgt-reusable-module.js",
+  "keywords": [
+    "angular",
+    "module",
+    "test"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "demo"
+  ],
+  "dependencies": {
+    "angular": "~1.4.4"
+  }
+}

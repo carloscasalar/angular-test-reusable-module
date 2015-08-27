@@ -1,0 +1,29 @@
+{
+  "name": "angular-test-reusable-module",
+  "version": "0.0.1",
+  "description": "Reusable test angular module with configured tests",
+  "main": "rgt-reusable-module.js",
+  "dependencies": {
+    "angular": "^1.4.4"
+  },
+  "devDependencies": {
+  },
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SirRagnar/angular-test-reusable-module.git"
+  },
+  "keywords": [
+    "angular",
+    "module",
+    "test"
+  ],
+  "author": "Carlos Castillo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SirRagnar/angular-test-reusable-module/issues"
+  },
+  "homepage": "https://github.com/SirRagnar/angular-test-reusable-module"
+}
