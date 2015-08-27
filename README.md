@@ -1,16 +1,16 @@
+# Installed sripts
+
+Lint code script: ```npm run lint```
+
+Minify and concat scripts: ```npm run uglify``` 
+
+
 # Tests making a resuable and bowerizable angular module
 
 Using this guide for "bowerize" the module: [http://briantford.com/blog/angular-bower](http://briantford.com/blog/angular-bower)
 
 Using this guide to configure manally the tests: [https://www.airpair.com/angularjs/posts/unit-testing-angularjs-applications](https://www.airpair.com/angularjs/posts/unit-testing-angularjs-applications)
 
-## Dependencies
-- required:
-	[TODO]
-- optional
-	[TODO]
-
-See `bower.json` and `index.html` in the `gh-pages` branch for a full list / more details
 
 ## Install
 1. download the files

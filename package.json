@@ -7,10 +7,15 @@
     "angular": "^1.4.4"
   },
   "devDependencies": {
-    "uglify-js": "^2.4.24"
+    "uglify-js": "^2.4.24",
+    "jshint": "latest",
+    "browserify": "latest",
+    "mocha": "latest"  
   },
   "scripts": {
-    "test": "npm test"
+    "test": "npm test",
+    "lint": "jshint module/**.js",
+    "uglify": "node bin/concat-minify.js"
   },
   "repository": {
     "type": "git",

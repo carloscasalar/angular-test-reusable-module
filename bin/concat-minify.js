@@ -8,13 +8,13 @@
 	
 	var destFileName='rgt-reusable-module.min.js';
 	
-	var scriptsFileNames = getFiles('../module', scriptsFileNames);
+	var scriptsFileNames = getFiles('module', scriptsFileNames);
 	console.log('Filename list of files to be uglified and minified:');
 	console.log(scriptsFileNames);
 	
 	var uglified = uglify.minify(scriptsFileNames);
 	
-	fs.writeFile('../dist/'+destFileName, uglified.code, function (err){
+	fs.writeFile('dist/'+destFileName, uglified.code, function (err){
 	  if(err) {
 	    console.log(err);
 	  } else {
