@@ -1,6 +1,6 @@
 {
   "name": "angular-test-reusable-module",
-  "version": "0.0.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/SirRagnar/angular-test-reusable-module",
   "authors": [
     "Carlos Castillo Alarcón <sir.ragnar+angular-test-reusable-module@gmail.com>"
@@ -21,7 +21,8 @@
     "tests",
     "demo",
     "bin",
-    "typings"
+    "typings",
+    "module"
   ],
   "dependencies": {
     "angular": "~1.4.4"
