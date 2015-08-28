@@ -1,6 +1,6 @@
 {
   "name": "angular-test-reusable-module",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Reusable test angular module with configured tests",
   "main": "module/rgt-reusable-module.js",
   "dependencies": {
