@@ -15,6 +15,14 @@ Watch and build: ```npm run watch```
 
 Start a server with live reload and watch where you can test changes on [http://localhost:8080/demo](http://localhost:8080/demo): ```npm start```
 
+# Intall this module
+
+You can install this module with:
+
+```
+bower install --save SirRagnar/angular-test-reusable-module
+```
+
 # Tests making a resuable and bowerizable angular module
 
 Not yet implemented.
