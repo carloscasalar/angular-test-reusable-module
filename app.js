@@ -1,4 +1,4 @@
-angular.module('sirragnar.reusableModule', ['ui.bootstrap','ui.utils','ngRoute','ngAnimate']);
+angular.module('sirragnar.reusableModule', ['ui.bootstrap', 'ui.utils', 'ngRoute', 'ngAnimate', 'sirragnar.rgtReusableModule']);
 
 angular.module('sirragnar.reusableModule').config(function($routeProvider) {
 

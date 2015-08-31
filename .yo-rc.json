@@ -18,6 +18,12 @@
         "marker": "/* Add Component LESS Above */",
         "template": "@import \"<%= filename %>\";"
       }
-    }
+    },
+    "modules": [
+      {
+        "name": "sirragnar.rgtReusableModule",
+        "file": "rgt-reusable-module/sirragnar.rgt-reusable-module.js"
+      }
+    ]
   }
 }
