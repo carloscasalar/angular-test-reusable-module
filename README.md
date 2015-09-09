@@ -30,3 +30,7 @@ Not yet implemented.
 I will follow this guide to configure manally the tests: [https://www.airpair.com/angularjs/posts/unit-testing-angularjs-applications](https://www.airpair.com/angularjs/posts/unit-testing-angularjs-applications)
 
 Work in progress at branch ```adding_karma```
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/SirRagnar/angular-test-reusable-module/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
